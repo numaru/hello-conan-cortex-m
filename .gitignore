@@ -1,0 +1,19 @@
+# CMake
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+# Conan
+conan_paths.cmake
+conan.lock
+conanbuildinfo.txt
+conaninfo.txt
+graph_info.json

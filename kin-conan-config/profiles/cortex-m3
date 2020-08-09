@@ -1,0 +1,9 @@
+[env]
+CFLAGS=-mthumb -mcpu=cortex-m3 -std=c99 -fno-builtin -fdata-sections -ffunction-sections
+CXXFLAGS=-mthumb -mcpu=cortex-m3 -fno-builtin -fdata-sections -ffunction-sections
+ASMFLAGS=-mthumb -mcpu=cortex-m3
+LDFLAGS=-mthumb -mcpu=cortex-m3 --specs=nosys.specs -Wl,-Map=build.map -Wl,--gc-sections
+
+[settings]
+os=BareMetal
+arch=armv7
